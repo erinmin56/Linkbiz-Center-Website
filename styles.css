@@ -1,0 +1,178 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  width: 100%;
+}
+ #nav{
+  background-color:  #101314;
+ }
+.navbar-brand {
+  color: aliceblue;
+  font-weight: 750;
+  font-size: 30px;
+}
+
+.nav-link {
+  color: aliceblue;
+  margin: 10px 20px;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #0349a9 !important;
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus {
+  color: rgb(240, 248, 255, 0.9);
+}
+
+.offcanvas-header,
+.offcanvas-body {
+  background-color:  #101314;
+}
+
+h5 {
+  color: aliceblue;
+  font-weight: 700;
+  font-size: 27px;
+}
+.hero {
+  padding-top: 120px;
+}
+.butt:hover{
+  background-color: #0349a9;
+  border: none;
+}
+.butt::after{
+  background-color: #0349a9;
+}
+.divider{
+  height: 1px;
+  margin: 0 auto;
+  max-width: 1300px;
+  background-color: aliceblue;
+}
+
+#map {
+  height: 400px;
+}
+.divider-b{
+  height: 1px;
+  margin: 0 auto;
+  max-width: 1300px;
+  background-color:  #101314;
+}
+.title {
+  display: flex;
+  max-width: 700px;
+  height: 338px;
+  flex-direction: column;
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.greeting {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.pres {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+.photo{
+  width: 300px;
+  height: 300px;
+  margin: 20px auto;
+  border-radius: 245px;
+  object-fit:cover;
+  height:90%;
+}
+#photo-container{
+  width: 350px;
+  height: 350px;
+}
+.mem-title{
+  color: aliceblue;
+  margin: 20px auto;
+  font-weight: 650;
+}
+.mem-desc{
+  color: aliceblue;
+  font-size: 20px;
+  margin: 20px;
+}
+.desc{
+  color:  #101314;
+  font-size: 20px;
+  margin: 20px;
+}
+.row div{
+  margin: 0 auto;
+}
+.foot{
+  width: 100%;
+}
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.contact{
+  color: aliceblue;
+  background-color:#36454f;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 5px 10px;
+}
+#contact{
+  font-size: 20px;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+ 
+    .greeting {
+    font-size: 25px;
+  }
+
+  .pres {
+    font-size: 40px;
+  }
+  .logos {
+    flex-direction: column;
+  }
+
+  .logos > div {
+    margin-bottom: 10px;
+  }
+}
+
